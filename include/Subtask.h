@@ -4,13 +4,13 @@
 
 class Subtask {
 private:
-    std::string ttile;
+    std::string title;
     std::string description;
     bool isCompleted;
     bool isRequired;
 
 public:
-    Subtask(const std::string& title, const std::string& description = "", bool isRequired = false);
+    Subtask(const std::string& title, const std::string& description, bool isRequired);
 
     Subtask(const std::string& title, const std::string& description, bool isRequired, bool isCompleted);
 
